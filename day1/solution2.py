@@ -1,4 +1,4 @@
-input = open("Day1\input.txt", "r").read()
+input = open("day1\input.txt", "r").read()
 cal = []
 for elf in input.split("\n\n"):
     sm = 0
