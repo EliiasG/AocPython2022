@@ -13,7 +13,7 @@ for i in range(0,len(input),3):
         for line in lines:
             if c not in line:
                 break
-        else:
+        else:# else on a for-loop runs when it finsihes without breaking
             sm += priority(c)
             break
 print(sm)
